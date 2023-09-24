@@ -2,10 +2,7 @@ header {
 background-color: rgb(230, 78, 78);
 padding: 50px;
 color: white;
-}
-
-body {
-  text-align: center;
+text-align: center;
 }
 
 main {
@@ -31,12 +28,6 @@ section {
     align-items: center;
   }
 
-
-#mainmenu {
-  flex-direction: column;
- 
-  }
-
 .asidebar {
   width: 30%;
   background-color: rgb(198, 165, 222);
@@ -48,42 +39,23 @@ section {
 .container {
   display: flex;
   justify-content: space-around;
-  width:70%
-  height: 100px;
   background-color: rgb(174, 122, 211);
   }
 
   .container div {
     display: flex;
-    height: 100px;
-    justify-content: center; 
-    gap: 25%;
+    height: 200px;
+    justify-content: center;  
+    gap: 10%;
     }
 
-/* #lamp {
-  display: flex;
-  width: 100%;
-  box-sizing: border-box;
-   }  */
-
-   /* #kover {
-    display: flex;
-    width: 100%;
-    box-sizing: border-box;
-     }  */
-
-     /* .photo {
-      width: 100%;
-      margin: 10px;
-      padding: 10px;
-    justify-content: space-around;
-    box-sizing: border-box;
-    } */
-
-    .photo {
-      padding: 20px;
+    img {
+      width: 211px;
+      height: 160px;
+      padding: 20px; 
+      padding-left: 30px;
+      padding-right: 30px;    
     }
-
   .flexcontainer {
   display: flex;
   justify-content: space-around;
