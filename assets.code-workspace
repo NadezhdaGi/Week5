@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../W4/assets"
+		},
+		{
+			"path": "../../W4"
+		},
+		{
+			"path": "../../W1W2W3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "W4"
+	}
+}
